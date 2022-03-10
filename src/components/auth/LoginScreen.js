@@ -49,7 +49,7 @@ export const LoginScreen = ({ history }) => {
       <div className="card p-4" style={{ width: '22rem' }}>
         <div className="card-body d-flex flex-column align-items-center animate__animated animate__fadeIn">
           <i className="fas fa-user fa-2x text-primary mb-2"></i>
-          <h5 className="card-title mb-4">ToDo App</h5>
+          <h5 className="card-title mb-4">React ToDo App</h5>
 
           <form onSubmit={handleSubmit}>
             <input
