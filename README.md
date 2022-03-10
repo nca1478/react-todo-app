@@ -47,7 +47,7 @@ React toDo App is a react web application that allows you to save a list of dail
 
 ## Demo
 
-[React toDo App](https://todo-app-njca.netlify.app/login)
+[React toDo App](https://todo-app-njca.netlify.app)
 
 ## Requirements
 
