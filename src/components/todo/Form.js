@@ -47,6 +47,7 @@ export const Form = () => {
             aria-describedby="button-submit"
             value={description}
             onChange={handleInputChange}
+            autoComplete="off"
           />
           <button className="btn btn-primary" type="submit" id="button-submit">
             Submit
