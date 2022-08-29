@@ -1,33 +1,33 @@
 # React toDo App
 
-React toDo App is a react web application that allows you to save a list of daily tasks.
+React toDo App es una aplicación web que permite guardar una lista de tareas diarias.
 
-## Features
+## Características
 
-- Tasking list.
-- CRUD features.
-- Local user authentication.
-- Register user account.
-- All data is stored on localstorage.
-- Public and Private Routes.
-- State Manage Component through useState hook.
-- State Manage App through useReducer hook.
-- Manage state globally through useContext hook.
-- For handling forms, i use useForm custom hook.
+- Listado de Tareas.
+- Tareas CRUD.
+- Autenticación local del usuario.
+- Registro de cuenta del usuario.
+- Toda la data es almacenada en localstorage.
+- Rutas públicas y privadas.
+- Manejo del estado local a través del hook useState.
+- Administración del estado de la aplicación a través del hook useReducer.
+- Manejo del estado global de la aplicación a través del hook useContext.
+- Para manejo de formularios, se usó el hook personalizado useForm.
 
-## General Information
+## Información General
 
-- The purpose of this project is to practice the web technologies shown below.
+- El propósito de este proyecto es practicar las tecnologías web que se muestran a continuación..
 
 ## Tech Stack
 
 - HTML5.
-- CSS3 (Flexbox and Media Queries).
+- CSS3 (Flexbox y Media Queries).
 - Bootstrap CSS Framework.
 - Responsive Design.
 - ReactJS.
 
-## React Technologies
+## Tecnologías React
 
 - [Create React App](https://create-react-app.dev/)
 - [React prop-types](https://www.npmjs.com/package/prop-types)
@@ -36,7 +36,7 @@ React toDo App is a react web application that allows you to save a list of dail
 - [useContext Hook](https://es.reactjs.org/docs/hooks-reference.html#usecontext)
 - [useReducer Hook](https://es.reactjs.org/docs/hooks-reference.html#usereducer)
 
-## Development tools and other Technologies
+## Herramientas de Desarrollo y otros
 
 - [Animate.css](https://animate.style/)
 - [Bootstrap 5.0](https://getbootstrap.com/)
@@ -49,19 +49,19 @@ React toDo App is a react web application that allows you to save a list of dail
 
 [React toDo App](https://todo-app-njca.netlify.app)
 
-## Requirements
+## Requerimientos
 
-- Nodejs v14 or better.
-- React 17.0.2 or better.
+- Nodejs v14 o superior.
+- React 17.0.2 o superior.
 
-## Installation
+## Instalación
 
 > npm install
 
-## Run the app
+## Ejecutar la aplicación
 
 > npm start
 
-## Enter file
+## Archivo de entrada
 
 > /src/index.js
