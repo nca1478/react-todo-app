@@ -42,15 +42,15 @@ export const Form = () => {
             id="desc"
             name="description"
             className="form-control form-control-lg"
-            placeholder="Please enter your task to do..."
-            aria-label="Enter the Task..."
+            placeholder="Por favor ingrese su tarea a realizar..."
+            aria-label="Ingresa la Tarea..."
             aria-describedby="button-submit"
             value={description}
             onChange={handleInputChange}
             autoComplete="off"
           />
           <button className="btn btn-primary" type="submit" id="button-submit">
-            Submit
+            Guardar
           </button>
         </div>
       </form>

@@ -18,7 +18,7 @@ export const Navbar = () => {
           <Link to="/" className="navbar-brand fs-2">
             toDo App
           </Link>
-          <span className="text-light h5 m-0">{`Hello, ${user.current.fullName}`}</span>
+          <span className="text-light h5 m-0">{`Hola, ${user.current.fullName}`}</span>
           <form>
             <Link
               exact
@@ -26,7 +26,7 @@ export const Navbar = () => {
               className="btn btn-outline-light"
               onClick={handleLogout}
             >
-              Logout
+              Salir
             </Link>
           </form>
         </div>

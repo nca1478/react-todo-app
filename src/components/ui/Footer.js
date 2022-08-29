@@ -5,7 +5,7 @@ export const Footer = () => {
     <div className="p-1 bg-dark text-white text-center">
       <div className="container">
         <p className="lead pt-3">
-          Copyright &copy; 2022 - Developed by:{' '}
+          Copyright &copy; 2022 - Desarrollado por:{' '}
           <a
             href="https://nelsoncadenas.netlify.app/"
             rel="noopener noreferrer"

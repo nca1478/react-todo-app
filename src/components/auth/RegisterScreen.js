@@ -14,12 +14,15 @@ import { TodoContext } from '../../context/TodoContext'
 import useForm from '../../hooks/useForm'
 
 export const RegisterScreen = () => {
-  const [{ fullName, email, password }, handleInputChange, handleClearForm] =
-    useForm({
-      fullName: '',
-      email: '',
-      password: ''
-    })
+  const [
+    { fullName, email, password },
+    handleInputChange,
+    handleClearForm,
+  ] = useForm({
+    fullName: '',
+    email: '',
+    password: '',
+  })
   const { users, dispatch } = useContext(TodoContext)
 
   useEffect(() => {
@@ -35,7 +38,7 @@ export const RegisterScreen = () => {
         id: new Date().getTime(),
         fullName,
         email,
-        password: bcrypt.hashSync(password)
+        password: bcrypt.hashSync(password),
       }
 
       handleAddUser(newUser, dispatch)
@@ -52,7 +55,7 @@ export const RegisterScreen = () => {
       <div className="card p-4" style={{ width: '22rem' }}>
         <div className="card-body d-flex flex-column align-items-center animate__animated animate__fadeIn">
           <i className="fas fa-user-plus fa-2x text-primary mb-2"></i>
-          <h5 className="card-title mb-4">Sign Up</h5>
+          <h5 className="card-title mb-4">Registrarse</h5>
 
           <form onSubmit={handleSubmit}>
             <input
@@ -60,7 +63,7 @@ export const RegisterScreen = () => {
               id="fullName"
               name="fullName"
               className="form-control form-control-lg mb-3"
-              placeholder="Fullname"
+              placeholder="Nombre Completo"
               onChange={handleInputChange}
               value={fullName}
               autoComplete="off"
@@ -80,7 +83,7 @@ export const RegisterScreen = () => {
               type="password"
               name="password"
               className="form-control form-control-lg mb-3"
-              placeholder="Password"
+              placeholder="Contraseña"
               onChange={handleInputChange}
               value={password}
               required
@@ -89,13 +92,13 @@ export const RegisterScreen = () => {
               type="submit"
               className="form-control btn btn-primary btn-block btn-lg mb-3"
             >
-              Register
+              Registrar
             </button>
           </form>
 
           {/* Go to Login */}
           <Link exact to="/login" className="btn text-primary">
-            Login Here
+            Inicia Sesión Aquí
           </Link>
         </div>
       </div>

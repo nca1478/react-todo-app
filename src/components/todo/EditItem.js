@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react'
 import {
   handleEdit,
   handleToggle,
-  handleUpdate
+  handleUpdate,
 } from '../../actions/TodoAction'
 import { TodoContext } from '../../context/TodoContext'
 import useForm from '../../hooks/useForm'
@@ -10,7 +10,7 @@ import useForm from '../../hooks/useForm'
 export const EditItem = ({ todo }) => {
   const { dispatch } = useContext(TodoContext)
   const [{ description }, handleInputChange] = useForm({
-    description: todo.desc
+    description: todo.desc,
   })
 
   useEffect(() => {
@@ -55,6 +55,7 @@ export const EditItem = ({ todo }) => {
               autoComplete="off"
               value={description}
               onChange={handleInputChange}
+              placeholder="Ingresa una tarea"
               style={{ fontSize: '1.5rem' }}
             />
           </div>

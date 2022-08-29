@@ -34,10 +34,10 @@ export const LoginScreen = ({ history }) => {
         userLogin(user, dispatch)
         history.replace('/')
       } else {
-        alert('Access denied')
+        alert('Acceso Denegado')
       }
     } else {
-      alert('Email does not exists')
+      alert('El email no existe')
     }
 
     handleClearForm()
@@ -67,7 +67,7 @@ export const LoginScreen = ({ history }) => {
               type="password"
               name="password"
               className="form-control form-control-lg mb-3"
-              placeholder="Password"
+              placeholder="Contraseña"
               onChange={handleInputChange}
               value={password}
               required
@@ -76,13 +76,13 @@ export const LoginScreen = ({ history }) => {
               type="submit"
               className="form-control btn btn-primary btn-block btn-lg mb-3"
             >
-              Login
+              Iniciar Sesión
             </button>
           </form>
 
           {/* Go to Register */}
           <Link exact to="/register" className="btn text-primary">
-            Register Here
+            Regístrese Aquí
           </Link>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import {
   handleDelete,
   handleEdit,
-  handleToggle
+  handleToggle,
 } from '../../actions/TodoAction'
 import { TodoContext } from '../../context/TodoContext'
 
@@ -38,7 +38,7 @@ export const ShowItem = ({ todo }) => {
               {todo.desc}
             </h4>
             <p className="card-text lead">
-              <b>{todo.done ? 'Completed' : 'Incompleted'}</b>
+              <b>{todo.done ? 'Terminada' : 'Incompleta'}</b>
             </p>
           </div>
 
